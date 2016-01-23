@@ -4,8 +4,8 @@
 //
 //  Created by Nitin/Jitendra on 12-06-13.
 
-#import <Foundation/Foundation.h>
-#import <Cordova/CDVPlugin.h>
+
+#import <Cordova/CDV.h>
 
 @interface SpringerPlugin : CDVPlugin {
     
