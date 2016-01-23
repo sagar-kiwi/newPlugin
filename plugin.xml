@@ -34,8 +34,8 @@
       </feature>
     </config-file>
 
-    <header-file src="src/ios/SpringerPlugin.h" target-dir="SpringerPlugin"/>
-    <source-file src="src/ios/SpringerPlugin.m" target-dir="SpringerPlugin"/>
+    <header-file src="src/ios/SpringerPlugin.h" target-dir="HelloPlugin"/>
+    <source-file src="src/ios/SpringerPlugin.m" target-dir="HelloPlugin"/>
   </platform>
 
   <platform name="wp7">
