@@ -6,25 +6,25 @@ module.exports = {
 	var args = {};
 	if(direction)
 		args.direction = direction;
-	cordova.exec(null, null, "SpringerPlugin", "movePageHandler", [args]);
+	cordova.exec(null, null, "Hello", "movePageHandler", [args]);
 },
 
 callWebBrowserHomePage : function() {
     
     var args = {};
-	cordova.exec(null, null, "SpringerPlugin", "callWebBrowserHomePage", [args]);
+	cordova.exec(null, null, "Hello", "callWebBrowserHomePage", [args]);
 },
 
 callArticlePage : function() {
     
     var args = {};
-	cordova.exec(null, null, "SpringerPlugin", "callArticlePage", [args]);
+	cordova.exec(null, null, "Hello", "callArticlePage", [args]);
 },
 
 callWebBrowserPage : function() {
     
     var args = {};
-	cordova.exec(null, null, "SpringerPlugin", "callWebBrowserPage", [args]);
+	cordova.exec(null, null, "Hello", "callWebBrowserPage", [args]);
 },
 
 callOfflinePDF : function(filePath) {
@@ -32,25 +32,25 @@ callOfflinePDF : function(filePath) {
     var args = {};
 	if(filePath)
 		args.filePath = filePath;
-	cordova.exec(null, null, "SpringerPlugin", "callOfflinePDF", [args]);
+	cordova.exec(null, null, "Hello", "callOfflinePDF", [args]);
 },
 
 startLoader: function() {
     
     var args = {};
-	cordova.exec(null, null, "SpringerPlugin", "startLoader", [args]);
+	cordova.exec(null, null, "Hello", "startLoader", [args]);
 },
 
 stopLoader : function() {
     
     var args = {};
-	cordova.exec(null, null, "SpringerPlugin", "stopLoader", [args]);
+	cordova.exec(null, null, "Hello", "stopLoader", [args]);
 },
 
 callback : function() {
     
     var args = {};
-	cordova.exec(null, null, "SpringerPlugin", "callback", [args]);
+	cordova.exec(null, null, "Hello", "callback", [args]);
 },
 };
 
