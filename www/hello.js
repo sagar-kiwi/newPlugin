@@ -17,7 +17,7 @@ callWebBrowserHomePage : function() {
 
 callArticlePage : function() {
     
-    var args : {};
+    var args = {};
 	cordova.exec(null, null, "Hello", "callArticlePage", [args]);
 },
 
